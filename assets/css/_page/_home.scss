@@ -18,7 +18,7 @@
 
         &:hover {
           position: relative;
-          @include transform(translateY(-.75rem));
+          @include transform(rotate(360deg));
         }
       }
     }
