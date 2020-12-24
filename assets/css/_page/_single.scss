@@ -1,17 +1,5 @@
 @import "../_partial/_single/toc";
 
-.ads-after-content {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-@media all and (max-width: 791px) {
-  .ads-hide-small {
-    display: none;
-  }
-}
-
 .single {
   .single-title {
     margin: 1rem 0 .5rem;
@@ -332,6 +320,12 @@
       height: 1.25em;
       vertical-align: text-bottom;
     }
+  }
+
+  .ads-after-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   @import "../_partial/_single/footer";
