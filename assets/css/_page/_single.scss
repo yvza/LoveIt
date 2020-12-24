@@ -1,5 +1,11 @@
 @import "../_partial/_single/toc";
 
+.ads-before-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .single {
   .single-title {
     margin: 1rem 0 .5rem;
@@ -49,12 +55,6 @@
     img.lazyloaded {
       width: 100%;
     }
-  }
-
-  .ads-before-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .content {
